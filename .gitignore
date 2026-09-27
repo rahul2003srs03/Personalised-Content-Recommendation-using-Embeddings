@@ -1,0 +1,161 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Virtual Environment
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# VS Code / IDE
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.*
+*.env
+
+# ==============================
+# Python Build
+# ==============================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==============================
+# Cache
+# ==============================
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================
+# Machine Learning Models
+# ==============================
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+
+# ==============================
+# Embeddings
+# ==============================
+*.npy
+*.npz
+*.emb
+*.vec
+*.faiss
+
+embeddings/
+embedding/
+embeddings_cache/
+
+# ==============================
+# Vector Databases
+# ==============================
+chroma/
+chroma_db/
+vector_db/
+vectordb/
+faiss_index/
+
+# ==============================
+# Large Datasets
+# ==============================
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.jsonl
+
+data/
+dataset/
+datasets/
+
+# ==============================
+# Archives
+# ==============================
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.tar.gz
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# Temporary Files
+# ==============================
+tmp/
+temp/
+*.tmp
+
+# ==============================
+# Node.js
+# ==============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==============================
+# Build Outputs
+# ==============================
+out/
+target/
+coverage/
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Local Uploads
+# ==============================
+uploads/
+output/
+outputs/
+generated/
+
+# ==============================
+# Database / Local DB
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
